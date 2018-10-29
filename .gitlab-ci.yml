@@ -1,6 +1,6 @@
 deploy:master_to_www:
   script:
-    - /home/build-scripts/deploy/web-mirror
+    - /home/build/ergo-deploy/web-mirror
   stage: deploy
   environment: production
   variables:
