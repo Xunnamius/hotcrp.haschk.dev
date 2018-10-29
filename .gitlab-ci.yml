@@ -1,0 +1,28 @@
+deploy:master_to_www:
+  script:
+    - /home/build/ergo-deploy/web-mirror
+  stage: deploy
+  environment: production
+  variables:
+    WEBMIRROR_JSON_CONFIG: |+
+      {
+        "global": {
+          "owner": {
+            "u": "phpfpm-hotcrp",
+            "g": "phpfpm-hotcrp"
+          }
+        },
+        "branches": {
+          "master": {
+            "web_public_dir": "public"
+          }
+        },
+        "command": {
+          "post": "cachetool opcache:reset --fcgi=/run/php/php7.1-hotcrp.bernarddickens.com.sock"
+        }
+      }
+  only:
+    - master
+    - triggers
+  tags:
+    - deploy
