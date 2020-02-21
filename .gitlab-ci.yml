@@ -14,7 +14,8 @@ deploy:master_to_www:
         },
         "branches": {
           "master": {
-            "web_public_dir": "public
+            "web_public_dir": "public,
+            "clear_on_checkout": []
           }
         },
         "command": {
