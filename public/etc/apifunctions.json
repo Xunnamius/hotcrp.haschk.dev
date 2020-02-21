@@ -1,0 +1,114 @@
+[
+    {
+        "name": "administrator", "paper": true, "get": true, "post": true,
+        "callback": "PaperApi::manager_api",
+        "synonym": ["manager"]
+    },
+    {
+        "name": "alltags", "get": true,
+        "callback": "AllTags_API::run"
+    },
+    {
+        "name": "checkformat", "paper": true, "get": true, "post": true,
+        "callback": "PaperApi::checkformat_api"
+    },
+    {
+        "name": "clickthrough", "post": true,
+        "callback": "User_API::clickthrough"
+    },
+    {
+        "name": "decision", "paper": true, "get": true, "post": true,
+        "callback": "PaperApi::decision_api"
+    },
+    {
+        "name": "fieldhtml", "get": true,
+        "callback": "Search_API::fieldhtml"
+    },
+    {
+        "name": "follow", "paper": true, "post": true, "xxx": true,
+        "callback": "PaperApi::follow_api"
+    },
+    {
+        "name": "lead", "paper": true, "get": true, "post": true,
+        "callback": "PaperApi::lead_api"
+    },
+    {
+        "name": "viewoptions", "get": true, "post": true,
+        "callback": "SearchConfig_API::viewoptions",
+        "synonym": ["listreport"]
+    },
+    {
+        "name": "namedformula", "get": true,
+        "callback": "SearchConfig_API::namedformula"
+    },
+    {
+        "name": "namedformula", "post": true,
+        "callback": "SearchConfig_API::save_namedformula"
+    },
+    {
+        "name": "mentioncompletion", "get": true, "post": true,
+        "callback": "PaperApi::mentioncompletion_api"
+    },
+    {
+        "name": "review", "paper": true, "get": true, "post": true,
+        "callback": "PaperApi::review_api"
+    },
+    {
+        "name": "reviewrating", "paper": true, "get": true, "post": true,
+        "callback": "PaperApi::reviewrating_api"
+    },
+    {
+        "name": "reviewround", "paper": true, "post": true, "xxx": true,
+        "callback": "PaperApi::reviewround_api"
+    },
+    {
+        "name": "revpref", "paper": true, "get": true, "post": true,
+        "callback": "PaperApi::pref_api",
+        "synonym": ["pref"]
+    },
+    {
+        "name": "search", "get": true,
+        "callback": "Search_API::search"
+    },
+    {
+        "name": "settags", "post": true,
+        "callback": "PaperApi::settags_api"
+    },
+    {
+        "name": "shepherd", "paper": true, "get": true, "post": true,
+        "callback": "PaperApi::shepherd_api"
+    },
+    {
+        "name": "taganno", "get": true,
+        "callback": "TagAnno_API::get"
+    },
+    {
+        "name": "taganno", "post": true,
+        "callback": "TagAnno_API::set",
+        "synonym": ["settaganno"]
+    },
+    {
+        "name": "tagreport", "paper": true, "get": true,
+        "callback": "PaperApi::tagreport_api"
+    },
+    {
+        "name": "trackerstatus", "get": true, "post": true,
+        "callback": "MeetingTracker::trackerstatus_api"
+    },
+    {
+        "name": "user", "get": true,
+        "callback": "User_API::user"
+    },
+    {
+        "name": "votereport", "paper": true, "get": true, "post": true,
+        "callback": "PaperApi::votereport_api"
+    },
+    {
+        "name": "whoami", "get": true,
+        "callback": "User_API::whoami"
+    },
+    {
+        "name": "jserror", "get": true, "post": true,
+        "callback": "Error_API::jserror"
+    }
+]

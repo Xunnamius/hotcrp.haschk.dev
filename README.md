@@ -1,3 +1,3 @@
-# hotcrp.bernarddickens.com
+# hotcrp.haschk.dev
 
-https://hotcrp.bernarddickens.com
+https://hotcrp.haschk.dev

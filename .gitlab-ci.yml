@@ -14,11 +14,11 @@ deploy:master_to_www:
         },
         "branches": {
           "master": {
-            "web_public_dir": "public"
+            "web_public_dir": "public
           }
         },
         "command": {
-          "post": "cachetool opcache:reset --fcgi=/run/php/php7.1-hotcrp.bernarddickens.com.sock"
+          "post": "cachetool opcache:reset --fcgi=/run/php/php7.1-hotcrp.haschk.dev.sock"
         }
       }
   only:

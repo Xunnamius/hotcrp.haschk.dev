@@ -1,0 +1,846 @@
+{
+    "the": {
+        "nameish": true, "stop": true
+    },
+    "and": {
+        "stop": true
+    },
+    "&": {
+        "stop": true
+    },
+    "of": {
+        "stop": true
+    },
+    "none": {
+        "stop": true
+    },
+    "unaffiliated": {
+        "stop": true
+    },
+    "unknown": {
+        "stop": true
+    },
+    "any": {
+        "stop": true
+    },
+    "all": {
+        "stop": true
+    },
+
+    "a": {
+        "weak": true, "nameish": 1
+    },
+    "b": {
+        "weak": true, "nameish": 1
+    },
+    "c": {
+        "weak": true, "nameish": 1
+    },
+    "d": {
+        "weak": true, "nameish": 1
+    },
+    "e": {
+        "weak": true, "nameish": 1
+    },
+    "f": {
+        "weak": true, "nameish": 1
+    },
+    "g": {
+        "weak": true, "nameish": 1
+    },
+    "h": {
+        "weak": true, "nameish": 1
+    },
+    "i": {
+        "weak": true, "nameish": 1,
+        "alternate": [{"word": "institute", "if": "m t"}]
+    },
+    "j": {
+        "weak": true, "nameish": 1
+    },
+    "k": {
+        "weak": true, "nameish": 1
+    },
+    "l": {
+        "weak": true, "nameish": 1
+    },
+    "m": {
+        "weak": true, "nameish": 1,
+        "alternate": [
+            {"word": "mit", "if": "i t"},
+            {"word": "massachusetts", "if": "i t"}
+        ]
+    },
+    "n": {
+        "weak": true, "nameish": 1
+    },
+    "o": {
+        "weak": true, "nameish": 1
+    },
+    "p": {
+        "weak": true, "nameish": 1
+    },
+    "q": {
+        "weak": true, "nameish": 1
+    },
+    "r": {
+        "weak": true, "nameish": 1
+    },
+    "s": {
+        "weak": true, "nameish": 1
+    },
+    "t": {
+        "weak": true, "nameish": 1,
+        "alternate": [{"word": "technology", "if": "m i"}]
+    },
+    "u": {
+        "weak": true, "nameish": 1,
+        "alternate": ["university"]
+    },
+    "v": {
+        "weak": true, "nameish": 1
+    },
+    "w": {
+        "weak": true, "nameish": 1
+    },
+    "x": {
+        "weak": true, "nameish": 1
+    },
+    "y": {
+        "weak": true, "nameish": 1
+    },
+    "z": {
+        "weak": true, "nameish": 1
+    },
+    "an": {
+        "weak": true, "nameish": true
+    },
+    "at": {
+        "weak": true
+    },
+    "de": {
+        "weak": true, "nameish": true
+    },
+    "di": {
+        "weak": true, "nameish": true
+    },
+    "jr": {
+        "weak": true, "nameish": true
+    },
+    "sr": {
+        "weak": true, "nameish": true
+    },
+    "iii": {
+        "weak": true, "nameish": true
+    },
+    "inc": {
+        "stop": true
+    },
+
+    "academia": {
+        "weak": true
+    },
+    "academy": {
+        "weak": true
+    },
+    "advanced": {
+        "weak": true
+    },
+    "analytics": {
+        "weak": true
+    },
+    "associates": {
+        "weak": true
+    },
+    "association": {
+        "weak": true
+    },
+    "business": {
+        "weak": true
+    },
+    "bv": {
+        "weak": true
+    },
+    "capital": {
+        "weak": true
+    },
+    "center": {
+        "weak": true
+    },
+    "centre": {
+        "weak": true
+    },
+    "centrum": {
+        "weak": true
+    },
+    "chair": {
+        "weak": true
+    },
+    "commission": {
+        "weak": true
+    },
+    "city": {
+        "weak": true
+    },
+    "cnrs": {
+        "weak": true
+    },
+    "college": {
+        "weak": true
+    },
+    "co": {
+        "weak": true
+    },
+    "computer": {
+        "weak": true
+    },
+    "computing": {
+        "weak": true
+    },
+    "consulting": {
+        "weak": true
+    },
+    "corp": {
+        "weak": true
+    },
+    "corporation": {
+        "weak": true
+    },
+    "department": {
+        "weak": true
+    },
+    "dept": {
+        "weak": true
+    },
+    "east": {
+        "weak": true
+    },
+    "ecole": {
+        "weak": true
+    },
+    "electronics": {
+        "weak": true
+    },
+    "engineering": {
+        "weak": true
+    },
+    "faculty": {
+        "weak": true
+    },
+    "federal": {
+        "weak": true
+    },
+    "foundation": {
+        "weak": true
+    },
+    "fraunhofer": {
+        "weak": true
+    },
+    "gmbh": {
+        "weak": true
+    },
+    "group": {
+        "weak": true
+    },
+    "hochschule": {
+        "weak": true
+    },
+    "informatics": {
+        "weak": true
+    },
+    "information": {
+        "weak": true
+    },
+    "institut": {
+        "weak": true
+    },
+    "institute": {
+        "weak": true,
+        "alternate": [{"word": "i", "if": "massachusetts technology"}]
+    },
+    "instituto": {
+        "weak": true
+    },
+    "international": {
+        "weak": true
+    },
+    "it": {
+        "weak": true
+    },
+    "lab": {
+        "weak": true
+    },
+    "labs": {
+        "weak": true
+    },
+    "laboratories": {
+        "weak": true
+    },
+    "laboratory": {
+        "weak": true
+    },
+    "limited": {
+        "weak": true
+    },
+    "llc": {
+        "weak": true
+    },
+    "ltd": {
+        "weak": true
+    },
+    "management": {
+        "weak": true
+    },
+    "mobile": {
+        "weak": true
+    },
+    "national": {
+        "weak": true
+    },
+    "network": {
+        "weak": true
+    },
+    "networks": {
+        "weak": true
+    },
+    "new": {
+        "weak": true
+    },
+    "north": {
+        "weak": true
+    },
+    "phd": {
+        "weak": true
+    },
+    "politecnico": {
+        "weak": true
+    },
+    "polytechnic": {
+        "weak": true
+    },
+    "project": {
+        "weak": true
+    },
+    "research": {
+        "weak": true
+    },
+    "school": {
+        "weak": true
+    },
+    "science": {
+        "weak": true
+    },
+    "security": {
+        "weak": true
+    },
+    "service": {
+        "weak": true
+    },
+    "services": {
+        "weak": true
+    },
+    "student": {
+        "weak": true
+    },
+    "software": {
+        "weak": true
+    },
+    "south": {
+        "weak": true
+    },
+    "standard": {
+        "weak": true
+    },
+    "state": {
+        "weak": true
+    },
+    "systems": {
+        "weak": true
+    },
+    "tech": {
+        "weak": true,
+        "alternate": ["technology"]
+    },
+    "technology": {
+        "weak": true,
+        "alternate": [{"word": "t", "if": "massachusetts institute"}]
+    },
+    "technologies": {
+        "weak": true
+    },
+    "telecom": {
+        "weak": true
+    },
+    "telefonica": {
+        "nameish": false
+    },
+    "telekom": {
+        "weak": true
+    },
+    "univ": {
+        "stop": true
+    },
+    "universidad": {
+        "weak": true
+    },
+    "universidade": {
+        "weak": true
+    },
+    "universita": {
+        "weak": true
+    },
+    "universitat": {
+        "weak": true
+    },
+    "universite": {
+        "weak": true
+    },
+    "universiteit": {
+        "weak": true
+    },
+    "univeristy": {
+        "weak": true, "alternate": ["university"]
+    },
+    "university": {
+        "weak": true, "alternate": ["u"]
+    },
+    "west": {
+        "weak": true
+    },
+
+    "america": {
+        "weak": true
+    },
+    "angeles": {
+        "alternate": [{"word": "ucla", "if": "university california los"}]
+    },
+    "anu": {
+        "alternate": ["australian national university"]
+    },
+    "arizona": {
+        "sync": "state"
+    },
+    "arvind": {
+        "nameish": true
+    },
+    "austin": {
+        "nameish": true, "sync": "ut texas"
+    },
+    "australian": {
+        "alternate": [{"word": "anu", "if": "national university"}]
+    },
+    "barbara": {
+        "alternate": [{"word": "ucsb", "if": "university california santa"}],
+        "nameish": true
+    },
+    "beijing": {
+        "weak": true
+    },
+    "berkeley": {
+        "nameish": false
+    },
+    "cal": {
+        "weak": true,
+        "alternate": [
+            {"word": "california", "if": "state"},
+            {"word": "csu", "if": "state"}
+        ]
+    },
+    "california": {
+        "weak": true,
+        "alternate": [
+            {"word": "uc", "if": "university"},
+            {"word": "caltech", "if": "institute technology"},
+            {"word": "csu", "if": "state"}
+        ],
+        "sync": "southern usc"
+    },
+    "caltech": {
+        "alternate": ["california institute technology"]
+    },
+    "cambridge": {
+        "weak": true
+    },
+    "carnegie": {
+        "alternate": [{"word": "cmu", "if": "mellon"}]
+    },
+    "carolina": {
+        "nameish": true,
+        "alternate": [{"word": "ncsu", "if": "north state university"}],
+        "sync": "state"
+    },
+    "china": {
+        "weak": true, "nameish": true,
+        "alternate": [{"word": "ustc", "if": "university science technology"}]
+    },
+    "chinese": {
+        "weak": true
+    },
+    "cmu": {
+        "alternate": ["carnegie mellon"]
+    },
+    "colorado": {
+        "weak": true
+    },
+    "csu": {
+        "alternate": ["california state university", "cal state"]
+    },
+    "cuhk": {
+        "alternate": ["chinese university hong kong"]
+    },
+    "darmstadt": {
+        "weak": true
+    },
+    "data61": {
+        "nameish": false
+    },
+    "diego": {
+        "nameish": true,
+        "alternate": [{"word": "ucsd", "if": "university california san"}]
+    },
+    "epfl": {
+        "nameish": false
+    },
+    "eth": {
+        "alternate": [{"word": "ethz", "if": "zurich"}]
+    },
+    "ethz": {
+        "alternate": ["eth zurich"]
+    },
+    "facebook": {
+        "nameish": false
+    },
+    "fernuniversitat": {
+        "nameish": false
+    },
+    "france": {
+        "weak": true
+    },
+    "francisco": {
+        "nameish": true,
+        "alternate": [{"word": "ucsf", "if": "university california san"}]
+    },
+    "george": {
+        "weak": true, "nameish": true,
+        "alternate": [{"word": "gwu", "if": "washington"}]
+    },
+    "georgia": {
+        "weak": true,
+        "sync": "tech"
+    },
+    "google": {
+        "nameish": false
+    },
+    "gwu": {
+        "alternate": ["george washington university"]
+    },
+    "harvard": {
+        "nameish": false
+    },
+    "hewlett": {
+        "alternate": [{"word": "hp", "if": "packard"}]
+    },
+    "hong": {
+        "weak": true
+    },
+    "hkust": {
+        "alternate": ["hong kong university science technology"]
+    },
+    "hp": {
+        "alternate": ["hewlett packard"]
+    },
+    "huawei": {
+        "nameish": false
+    },
+    "ibm": {
+        "nameish": false
+    },
+    "iiit": {
+        "weak": true,
+        "alternate": ["indian institute information technology"]
+    },
+    "iisc": {
+        "alternate": ["indian institute science"]
+    },
+    "iit": {
+        "weak": true,
+        "alternate": ["indian institute technology"]
+    },
+    "illinois": {
+        "weak": true
+    },
+    "indian": {
+        "weak": true,
+        "alternate": [
+            {"word": "iisc", "if": "institute science"},
+            {"word": "iit", "if": "institute technology"}
+        ]
+    },
+    "indiana": {
+        "alternate": [{"word": "iu", "if": "university"}]
+    },
+    "intel": {
+        "nameish": false
+    },
+    "inria": {
+        "nameish": false
+    },
+    "irisa": {
+        "nameish": false
+    },
+    "irvine": {
+        "alternate": [{"word": "uci", "if": "university california"}]
+    },
+    "italy": {
+        "weak": true
+    },
+    "iu": {
+        "alternate": ["indiana university"]
+    },
+    "jiao": {
+        "alternate": [{"word": "jiaotong", "if": "tong"}]
+    },
+    "jiaotong": {
+        "alternate": ["jiao tong"],
+        "sync": "beijing"
+    },
+    "kaist": {
+        "alternate": ["korea advanced institute science technology"]
+    },
+    "kong": {
+        "weak": true, "nameish": true,
+        "alternate": [
+            {"word": "hkust", "if": "hong university science technology"},
+            {"word": "cuhk", "if": "chinese hong university"},
+            {"word": "uhk", "if": "hong university", "if_not": "chinese science"}
+        ],
+        "sync": ["chinese cuhk", "science hkust", "polytechnic"]
+    },
+    "korea": {
+        "alternate": [{"word": "kaist", "if": "advanced institute science technology"}]
+    },
+    "london": {
+        "weak": true,
+        "alternate": [{"word": "ucl", "if": "university college"}]
+    },
+    "massachusetts": {
+        "weak": true,
+        "alternate": [
+            {"word": "umass", "if": "university"},
+            {"word": "mit", "if": "technology"},
+            {"word": "m", "if": "institute technology"}
+        ]
+    },
+    "michigan": {
+        "sync": "state"
+    },
+    "microsoft": {
+        "nameish": false,
+        "alternate": [{"word": "msr", "if": "research"}]
+    },
+    "mit": {
+        "alternate": ["massachusetts institute technology", "m i t"]
+    },
+    "mpi": {
+        "alternate": ["max planck institute"]
+    },
+    "msr": {
+        "alternate": ["microsoft research"]
+    },
+    "ncsu": {
+        "alternate": ["north carolina state university"]
+    },
+    "nist": {
+        "alternate": ["national institute standards technology"]
+    },
+    "nus": {
+        "alternate": ["national university singapore"]
+    },
+    "nyu": {
+        "alternate": ["new york university"]
+    },
+    "penn": {
+        "weak": true, "nameish": 0,
+        "alternate": ["pennsylvania"],
+        "sync": "state"
+    },
+    "pennsylvania": {
+        "weak": true,
+        "alternate": [
+            "penn",
+            {"word": "upenn", "if": "university", "if_not": "state"}
+        ],
+        "sync": "state"
+    },
+    "planck": {
+        "alternate": [{"word": "mpi", "if": "max institute"}]
+    },
+    "rensselaer": {
+        "alternate": [{"word": "rpi", "if": "polytechnic institute"}]
+    },
+    "rpi": {
+        "alternate": ["rensselaer polytechnic institute"]
+    },
+    "san": {
+        "weak": true
+    },
+    "santa": {
+        "weak": true
+    },
+    "shanghai": {
+        "weak": true, "alternate": [{"word": "sjtu", "if": "jiao tong"}]
+    },
+    "singapore": {
+        "weak": true, "alternate": [{"word": "nus", "if": "national university"}]
+    },
+    "sjtu": {
+        "alternate": ["shanghai jiao tong"]
+    },
+    "southern": {
+        "weak": true,
+        "alternate": [{"word": "usc", "if": "university southern"}]
+    },
+    "stanford": {
+        "weak": true
+    },
+    "standards": {
+        "alternate": [{"word": "nist", "if": "national institute technology"}]
+    },
+    "suny": {
+        "nameish": false
+    },
+    "technische": {
+        "weak": true,
+        "alternate": [{"word": "tu", "if": "universitat"}]
+    },
+    "technion": {
+        "nameish": false
+    },
+    "texas": {
+        "weak": true,
+        "alternate": [
+            {"word": "ut", "if": "university"}
+        ]
+    },
+    "tsinghua": {
+        "nameish": false
+    },
+    "tu": {
+        "nameish": 2, "weak": true,
+        "alternate": [{"word": "technische universitat"}]
+    },
+    "uc": {
+        "weak": true,
+        "alternate": [
+            "university california",
+            {"word": "ucla", "if": "los angeles"},
+            {"word": "ucsd", "if": "san diego"},
+            {"word": "ucsb", "if": "santa barbara"},
+            {"word": "ucsf", "if": "san francisco"}
+        ]
+    },
+    "ucl": {
+        "alternate": ["university college london"]
+    },
+    "ucla": {
+        "alternate": ["university california los angeles", "uc los angeles"]
+    },
+    "ucsb": {
+        "alternate": ["university california santa barbara", "uc santa barbara"]
+    },
+    "ucsd": {
+        "alternate": ["university california san diego", "uc san diego"]
+    },
+    "ucsf": {
+        "alternate": ["university california san francisco", "uc san francisco"]
+    },
+    "uci": {
+        "alternate": ["university california irvine", "uc irvine"]
+    },
+    "uhk": {
+        "alternate": ["university hong kong"]
+    },
+    "uiuc": {
+        "alternate": [
+            "university illinois urbana champaign",
+            {"word": "university illinois", "if_not": "chicago"}
+        ]
+    },
+    "umass": {
+        "alternate": ["university massachusetts"]
+    },
+    "unsw": {
+        "alternate": ["university new south wales"]
+    },
+    "upenn": {
+        "alternate": ["university pennsylvania"]
+    },
+    "upmc": {
+        "nameish": false
+    },
+    "urbana": {
+        "alternate": [{"word": "uiuc", "if": "university illinois champaign"}]
+    },
+    "usa": {
+        "weak": true
+    },
+    "usc": {
+        "alternate": ["university southern california"]
+    },
+    "ustc": {
+        "alternate": ["university science technology china"]
+    },
+    "ut": {
+        "weak": true,
+        "alternate": [
+            {"word": "university texas", "if": "austin"},
+            {"word": "university texas", "if": "dallas"}
+        ]
+    },
+    "uva": {
+        "alternate": ["university virginia"]
+    },
+    "uw": {
+        "weak": true,
+        "alternate": [
+            {"word": "university wisconsin", "if": "madison"},
+            {"word": "university washington", "if_not": "madison"}
+        ],
+        "sync": "madison"
+    },
+    "virginia": {
+        "weak": true,
+        "alternate": [
+            {"word": "uva", "if": "university"}
+        ],
+        "sync": ["commonwealth", "rensselaer"]
+    },
+    "wales": {
+        "alternate": [
+            {"word": "unsw", "if": "university new south"}
+        ]
+    },
+    "washington": {
+        "weak": true, "nameish": true,
+        "alternate": [
+            {"word": "uw", "if": "university"}
+        ]
+    },
+    "wisconsin": {
+        "alternate": [
+            {"word": "uw", "if": "university madison"}
+        ]
+    },
+    "xi": {
+        "weak": true, "nameish": true
+    },
+    "york": {
+        "weak": true,
+        "alternate": [
+            {"word": "nyu", "if": "new university"}
+        ]
+    },
+    "zurich": {
+        "weak": true
+    }
+}
