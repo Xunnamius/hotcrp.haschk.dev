@@ -44,7 +44,7 @@ class DocumentInfo implements JsonSerializable {
 
     function update_dns() {
         list($content_hash, $pfx, $alg) = Filer::analyze_hash($this->text_hash());
-        $url = "http://localhost:3001/$content_hash";
+        $url = "http://localhost:3003/$content_hash";
 
         $curl = curl_init();
 
@@ -52,11 +52,11 @@ class DocumentInfo implements JsonSerializable {
             CURLOPT_FAILONERROR => true,
             CURLOPT_RETURNTRANSFER => 1,
             CURLOPT_URL => $url,
-            CURLOPT_USERAGENT => 'hotcrp dnschk bridge'
+            CURLOPT_USERAGENT => 'hotcrp haschk bridge'
         ]);
 
         if(!curl_exec($curl))
-            exit('Failed to communicate with dnschk manager :: ' . curl_error($curl) . '<br />Target: ' . $url);
+            exit('Failed to communicate with haschk manager :: ' . curl_error($curl) . '<br />Target: ' . $url);
 
         curl_close($curl);
     }

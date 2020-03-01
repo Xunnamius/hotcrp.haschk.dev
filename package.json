@@ -1,0 +1,26 @@
+{
+  "name": "haschk",
+  "description": "A proof-of-concept web extension tailored to Google Chrome that implements the HASCHK protocol",
+  "repository": {
+    "type": "git",
+    "url": "https://git.xunn.io/closed-source/research/psd-mirrored/haschk"
+  },
+  "version": "0.10.0",
+  "scripts": {
+    "test": "echo no test"
+  },
+  "author": "Xunnamius",
+  "license": "MIT",
+  "main": "./hotcrp-backend.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eventemitter3": "^4.0.0",
+    "hex-to-array-buffer": "^1.1.0",
+    "base32-encode": "^1.1.1",
+    "do-wrapper": "^4.0.0-alpha.2",
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8"
+  },
+  "devDependencies": {
+  }
+}
