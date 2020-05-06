@@ -3,7 +3,7 @@
   "description": "A proof-of-concept web extension tailored to Google Chrome that implements the HASCHK protocol",
   "repository": {
     "type": "git",
-    "url": "https://git.xunn.io/closed-source/research/psd-mirrored/haschk"
+    "url": "https://github.com/hotcrp.haschk.dev"
   },
   "version": "0.10.0",
   "scripts": {
